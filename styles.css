@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #2c2c2c; /* Darker container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #9b59b6; /* Purple color for the title */
+}
+
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #9b59b6; /* Purple border */
+    border-radius: 5px;
+    background-color: #3c3c3c; /* Dark input background */
+    color: #ffffff; /* White text in input */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #9b59b6; /* Purple button */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8e44ad; /* Darker purple on hover */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #9b59b6; /* Purple color for the tasks heading */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #444; /* Darker border */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray; /* Gray for completed tasks */
+}
+
+li button {
+    background-color: #e74c3c; /* Red delete button */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
